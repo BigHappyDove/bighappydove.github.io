@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="javaslides" href="Slideshow.js">
+    <title>Home</title>
+</head>
+<body>
+<div class="navbar">
+    <img src="smallestBHD.png" class="logo">
+    <nav>
+        <ul>
+            <li><a href="./Home.html">Home</a> </li>
+            <li><a href="./AboutUs.html">About us</a> </li>
+            <li><a href="./Links.html">Links</a> </li>
+            <li><a href="./Download.html">Download</a> </li>
+        </ul>
+    </nav>
+</div>
+<section>
+    <img class="Slideshow" src="titouan.jpg" style="width: 100%">
+    <img class="Slideshow" src="clovis.jpg" style="width: 100%">
+    <img class="Slideshow" src="jacques.jpg" style="width: 100%">
+    <img class="Slideshow" src="lilas.jpg" style="width: 100%">
+</section>
+<script>
+    var myIndex = 0;
+    slides();
+
+    function slides() {
+        var i;
+        var x = document.getElementsByClassName("Slideshow");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(slides, 6000);
+    }
+</script>
+</body>
+</html>
