@@ -29,6 +29,7 @@ nav ul li a{
     color: #333;
 }
 .content{
+    background: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35));
     margin-left: 10%;
     margin-top: 7%;
 }
@@ -48,6 +49,17 @@ nav ul li a{
     text-decoration: none;
     padding: 10px 20px;
     color: #333333;
+}
+.content .link{
+    text-decoration: none;
+    color: #333333;
+}
 
-
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.Slideshow{
+    position: absolute;
+    z-index: -1;
 }
