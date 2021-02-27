@@ -40,6 +40,11 @@ nav ul li a{
     margin-top: 24px;
     margin-bottom: 15px;
 }
+.content h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
 .content p{
     font-size: 20px;
 }
