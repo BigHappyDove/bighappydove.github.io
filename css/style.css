@@ -38,12 +38,10 @@ nav ul li a{
 }
 
 .content{
-    /*background: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35));*/
     margin-left: 10%;
     margin-top: 7%;
     margin-right: 5%;
     margin-bottom: 2%;
-
 }
 
 .content h1{
