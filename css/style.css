@@ -72,8 +72,6 @@ nav ul li a{
     text-decoration: none;
     padding: 10px 20px;
     color: #333333;
-    position: sticky;
-    top: 130px;
 }
 
 .content .button:hover{
